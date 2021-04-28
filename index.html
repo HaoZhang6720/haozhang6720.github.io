@@ -1,28 +1,257 @@
 <!DOCTYPE html>
+
 <html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+        <meta name="description" content="Homepage of Hao Zhang">
+        <meta name="author" content="Hao Zhang">
+
+	    <title>Hao Zhang (张浩)</title>
+
+        <!-- Bootflat CSS -->
+        <link rel="stylesheet" href="css/bootflat.css">
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/index.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/6169794306.js" crossorigin="anonymous"></script>
+    </head>
+
+
+    <body>
+        <div id="top" style="position: relative; top: -100px;"></div>
+        <header id="header_navbar">
+		    <nav class="navbar navbar-default navbar-fixed-top fadeIn" role="navigation">
+                <div>
+                    <div class="navbar-header">
+					    <button type="button" class="navbar-toggle collapsed" id="button_navbar" data-toggle="collapse" data-target="#dropdown-box-1">
+						    <span class="sr-only">Toggle navigation</span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+					    </button>
+				    </div>
+
+    		        <div class="collapse navbar-collapse navbar-right" id="dropdown-box-1">
+	    			    <ul class="nav navbar-nav">
+		    			    <li><a href="#home_target">Home</a></li>
+			    			<li><a href="#bio_target">Bio</a></li>
+					    	<li><a href="#manuscripts_target">Manuscripts</a></li>
+		    				<li><a href="#publications_target">Publications</a></li>
+		    				<li><a href="#working_target">Working</a></li>
+                            <li><a href="#teaching_target">Teaching</a></li>
+<!--                             <li><a href="#acknowledgments_target">Acknowledgments</a></li> -->
+				    	</ul>
+			        </div>
+                </div>
+		    </nav>
+	    </header>
+
+
+        <div id="container">
+            <div id="home_target" style="position: relative; top: -50px;"></div>
+	        <div id="home">
+                <div id="photo"> <a><img src="img/photo.jpg" width="230" height="230"/></a> </div>
+
+    	        <div id="intro">
+        	        <div id="name"> <h1>Hao Zhang (张浩)</h1> </div>
+                    <div>
+        	            <p>
+                            Ph.D. candidate <br/>
+            	            <a href="https://cse.osu.edu/" target="_blank">Department of Computer Science and Engineering</a> <br/>
+            	            <a href="https://www.osu.edu/" target="_blank">The Ohio State University</a> <br/>
+            	            Advisor: <a href="http://web.cse.ohio-state.edu/~dwang/" target="_blank">DeLiang Wang</a> <br/>
+                            Lab: <a href="http://www.cse.ohio-state.edu/pnl" target="_blank">Perception and Neurodynamics Laboratory (PNL)</a> <br/>
+                            Email: <a>tan.650@osu.edu</a>
+                        </p>
+                    </div>
+                    <div id="contact">
+                        <ul class="list-inline">
+                            <li><a href="./doc/HaoZhang_2021.pdf" target="_blank"><i class="fas fa-file"></i> CV</a></li>
+                            <li><a href="https://www.linkedin.com/in/hao-zhang-99861a192/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                            <li><a href="https://scholar.google.com/citations?user=DmFX6JsAAAAJ&hl=zh-CN" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
+                            <li><a href="https://www.researchgate.net/profile/Hao-Zhang-254" target="_blank"><i class="fab fa-researchgate"></i> ResearchGate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="clear"></div>
+
+            <div id="bio_target" style="position: relative; top: -50px;"></div>
+            <div id="bio">
+    	        <h2><a name="bio">Bio</a></h2>
+
+                <p>I am currently a fifth-year Ph.D. student in CSE at OSU, advised by Prof. <a href="http://web.cse.ohio-state.edu/~dwang/" target="_blank">DeLiang Wang</a>. Before studying at OSU, I received the bachelor degree in electronic information engineering from <a href="http://en.ustc.edu.cn/" target="_blank">University of Science and Technology of China</a> (USTC) in 2015.
+
+                <p>My research focuses on <b><i>speech enhancement</i></b>, <b><i>speech separation</i></b>, <b><i>acoustic echo cancellation</i></b>, <b><i>active noise control</i></b>, and <b><i>deep learning</i></b>. I am also interested in <b><i>microphone array processing</i></b>, <b><i>musci source separation</i></b> </p>
+            </div>
+
+            <div id="manuscripts_target" style="position: relative; top: -50px;"></div>
+            <div id="manuscripts">
+    	        <h2><a name="manuscripts">Manuscripts</a></h2>
+                <p align="justify">
+                    [1] <b>H. Zhang</b> and D. L. Wang, <b>"A Deep Learning Approach to Acoustic Echo Cancellation"</b>, in submission to <i>Neural Networks</i>, under review. <br>
+                </p>
+            </div>
+
+            <div id="publications_target" style="position: relative; top: -50px;"></div>
+            <div id="publications">
+    	        <h2><a name="publications">Publications</a></h2>
+                <h4><a name="journal"><i>Journal Articles</i></a></h4>
+                <p align="justify">
+               
+                <p align="justify">
+                    [2] P<b>H. Zhang</b> and D. L. Wang, <b>"A deep learning approach to active noise control"</b>, in <i>Neural Networks</i>, vol. 141, pp. 1-10, 2021. <br>
+                    <a class="label label-success" href="doc/papers/Deep_ANC_2021.pdf" target="_blank">Paper</a>
+<!--                     &nbsp; -->
+<!--                     <a class="label label-info" href="doc/papers/bib/wang2020bridging.txt" target="_blank">BibTeX</a> -->
+                </p>
+
+                <p align="justify">
+                    [1] <b>H. Zhang</b>, J. Chen, and J. Benesty, <b>"Study of nonuniform linear differential microphone arrays with the minimum-norm filter"</b>, in <i>Journal of Applied Acoustics</i>, vol. 98, pp. 62-69, 2015. <br>
+                    <a class="label label-success" href="doc/papers/MA_2015.pdf" target="_blank">Paper</a>
+<!--                     &nbsp; -->
+<!--                     <a class="label label-info" href="doc/papers/bib/tan2019gated.txt" target="_blank">BibTeX</a> -->
+                </p>
+
+                <br>
+                <h4><a name="conference"><i>Conference Papers</i></a></h4>
+		    
+		<p align="justify">
+                    [3] <b>H. Zhang</b> and D. L. Wang, <b>"A Deep Learning Approach to Active Noise Control"</b>, in <i>the 21th Annual Conference of the International Speech Communication Association (<b>INTERSPEECH</b>)</i>, pp. 1141-1145, 2020. <br>
+                    <a class="label label-success" href="doc/papers/Zhang-Wang.interspeech20.pdf" target="_blank">Paper</a>
+<!--                     &nbsp;
+                    <a class="label label-info" href="doc/papers/bib/zhang2019deep.txt" target="_blank">BibTeX</a> -->
+                </p>
+		    
+                <p align="justify">
+                    [2] <b>H. Zhang</b>, K. Tan and D. L. Wang, <b>"Deep Learning for Joint Acoustic Echo and Noise Cancellation with Nonlinear Distortions"</b>, in <i>the 20th Annual Conference of the International Speech Communication Association (<b>INTERSPEECH</b>)</i>, pp. 4255-4259, 2019. <br>
+                    <a class="label label-success" href="doc/papers/ZTW.interspeech19.pdf" target="_blank">Paper</a>
+<!--                     &nbsp;
+                    <a class="label label-info" href="doc/papers/bib/zhang2019deep.txt" target="_blank">BibTeX</a> -->
+                </p>
+
+                <p align="justify">
+                    [1] <b>H. Zhang</b> and D. L. Wang, <b>"Deep learning for acoustic echo cancellation in noisy and double-talk scenarios"</b>, in <i>the 19th Annual Conference of the International Speech Communication Association (<b>INTERSPEECH</b>)</i>, pp. 3239-3243, 2018. <br>
+                    <a class="label label-success" href="doc/papers/Zhang-Wang.interspeech18.pdf" target="_blank">Paper</a>
+<!--                     &nbsp;
+                    <a class="label label-info" href="doc/papers/bib/zhu2015microst.txt" target="_blank">BibTeX</a> -->
+                </p>
+
+            </div>
+
+
+            <div id="working_target" style="position: relative; top: -50px;"></div>
+	        <div id="working">
+            	<h2><a name="working">Working</a></h2>
+		<p>Jan. 2017 - present, <i>Graduate Research Associate</i> in <a href="http://web.cse.ohio-state.edu/pnl/" target="_blank">Perception and Neurodynamics Laboratory (PNL)</a> at OSU, Columbus, OH, United States</p>
+                <p>May 2020 - Aug. 2021, <i>Research Intern</i> at Amazon, Sunnyvale, CA, the US</p>
+		<p>May 2019 - Aug. 2019, <i>Research Intern</i> at Amazon, Sunnyvale, CA, the US</p>
+                <p>Jun. 2018 - Aug. 2018, <i>Research Intern</i> at Elevoc Technology Co., Ltd.,Shenzhen, Guangdong, China</p>
+            </div>
+
+            <div id="teaching_target" style="position: relative; top: -50px;"></div>
+            <div id="teaching">
+            	<h2><a name="teaching">Teaching</a></h2>
+		    	<p>GTA of CSE 5526 (<i>Introduction to Neural Networks</i>), OSU, Autumn 2020</p>
+		    	<p>GTA of CSE 5526 (<i>Introduction to Neural Networks</i>), OSU, Autumn 2019</p>
+        		<p>GTA of CSE 5526 (<i>Introduction to Neural Networks</i>), OSU, Spring 2017 - Autumn 2018</p>
+		        <p>GTA of CSE 1223 (<i>Introduction to Computer Programming In Java</i>), OSU, Autumn 2016</p>
+            </div>
+
+
+        </div>
+
+        <div class="wow fadeIn" data-wow-delay="0.4s">
+	        <div class="btn-circle-scroll">
+			    <a href="#top" class="btn-circle">
+				    <i class="fa fa-angle-double-up"></i>
+				</a>
+			</div>
+		</div>
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    	<script src="js/jquery.easing.min.js"></script>
+	    <script src="js/jquery.scrollTo.js"></script>
+        <script src="js/wow.min.js"></script>
+
+        <script type="text/javascript">
+            $(function(){
+                $("ul li a").click(function(){
+                    var hr = $(this).attr("href");
+                    var anh = $(hr).offset().top;
+                    $("html,body").stop().animate({scrollTop:anh}, 1000);
+                })
+            })
+        </script>
+
+        <script type="text/javascript">
+            (function($) {
+        	    new WOW().init();
+
+	            jQuery(window).load(function() {
+		            jQuery("#preloader").delay(100).fadeOut("slow");
+		            jQuery("#load").delay(100).fadeOut("slow");
+	            });
+
+            	//jQuery to collapse the navbar on scroll
+	            $(window).scroll(function() {
+	        	    if ($(".navbar").offset().top > 50) {
+			            $(".navbar-fixed-top").addClass("top-nav-collapse");
+		            } else {
+			            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+	            	}
+            	});
+            })(jQuery);
+        </script>
+
+        <script type="text/javascript">
+            $(document).on("scroll",function(){
+	            if($(document).scrollTop() > 50){
+		            $(".navbar").stop().animate({
+                        opacity: '0.7'
+		            });
+	            }else{
+		            $(".navbar").stop().animate({
+                        opacity:'1.0'
+		            });
+	            }
+            });
+        </script>
+
+        <script type="text/javascript">
+        	//jQuery for page scrolling feature - requires jQuery Easing plugin
+	        $(function() {
+		        $('.btn-circle-scroll a').bind('click', function(event) {
+			        var $anchor = $(this);
+			        $('html, body').stop().animate({
+			           scrollTop: $($anchor.attr('href')).offset().top
+			           }, 1500, 'easeInOutExpo');
+		    	    event.preventDefault();
+		        });
+	        });
+        </script>
+
+        <!-- Email -->
+        <script type="text/javascript">
+            var a = "zhang.6720";
+            var b = "osu.edu";
+            document.getElementById("osu-email").href = "mailto:" + a + "@" + b;
+        </script>
+
+        <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=qNIolzwkkPaDtv2ywjbBzS1SIC2QUqX_jQHm_wC97nk&cl=ffffff&w=a"></script> -->
+        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=N_fnzVPTxT9LnxhA1Kyo7UsLjhDJUcDGulQVkGx8xAM'></script>
+
+    </body>
 </html>
